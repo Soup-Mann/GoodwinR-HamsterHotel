@@ -8,9 +8,34 @@ h1{
 .logo1{
     background-color: #000324;
     margin-top: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 5vh;
+
+}
+.justify-content-center{
+   display: flex;
+    justify-content: space-between; 
+    
 }
 .link2{
     margin-top: 5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    color: #E5FEFF;
+}
+.link3{
+    margin-top:5%;
+
+    color: #E5FEFF;
+    border-style: solid;
+   border-radius: 0;
+}
+.simplycolorw{
+    color: #E5FEFF;
+    font-family: 'Dosis', 'Regular';
+    font-size: large;
 }
 
 .headerer1{
@@ -168,7 +193,7 @@ opacity: 1;
     justify-content: center;
 }
 .bingbong{
-  
+ 
 }
 
 
@@ -176,11 +201,12 @@ opacity: 1;
 .callme{
     
     width: 125vh;
-    height: 200px;
+    height: 175px;
         background-color: #000324;
         opacity: 100%;
         display: flex;
         justify-content: center;
+        flex-direction: column;
 }
 .input1{
     height: 10px;
@@ -194,24 +220,23 @@ opacity: 1;
         background-color: #000324;
        height: 40vh;
 }
-.logo1{
+.logo4{
     display: flex;
     justify-content: center;
     align-items: baseline;
     padding-top: 5vh;
+    padding-bottom: 2%;
 }
 .logo2{
     color: #E5FEFF;
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
 }
 .btn-primary{
     color: #004CC7;
 }
-.mobdeep{
-    justify-content: space-between;
-    
-}
+
 .mb-3{
 width: 20vh;
 height: 3vh;
@@ -225,8 +250,62 @@ border-radius: 0;
 height: 5vh;
 }
 .row22{
+
 }
 .textbox{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
+.reserve{
+    display: flex;
+    justify-content: center;
+    color: #E5FEFF;
+    padding-bottom: 1%;
+    
+}
+
+
+/*for iphone*/
+
+@media (max-width: 575.98px) { 
+
+
+
+
+
+
+    /*Room cards*/
+
+    .cardz{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+ }
+
+
+
+ /*tablets*/
+
+
+ @media (max-width: 991.98px) { 
+    .cardz{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+  }
