@@ -1,0 +1,232 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+.navabar{
+    background-color: #000324;
+}
+.logo1{
+    background-color: #000324;
+    margin-top: -20%;
+}
+.link2{
+    margin-top: 5%;
+}
+
+.headerer1{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/header.jpg);
+    height: 500px;
+    background-size: cover;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+    background-position: center;  
+}
+.headerer2{
+  
+}
+.words{
+    top: 253px;
+left: 488px;
+width: 945px;
+height: 232px;
+    background-color: #000324;
+    opacity: 80%;
+}
+
+.headwords{
+display: flex;
+justify-content: center;
+}
+.intro{
+    color: #E5FEFF;
+    display: flex;
+    justify-content: center;
+}
+.headercol{
+    padding-top: 8%;
+    
+}
+/*Header Ends
+
+
+*/
+
+.h22{
+    display: flex;
+    align-self: center;
+}
+.hamste{
+    width: 200%;
+}
+.h11{
+    height: 55vh;
+    width: 60vh;
+}
+.hamaward{
+padding-left: 20vh;
+
+    
+}
+.welcome{
+    padding-right: 25vh;
+}
+.backgroundd{
+background-image:url(../assets/bg2.jpg);
+
+}
+.datcard{
+    padding-top: 20%;
+}
+.bold{
+    font-weight: bold;
+}
+.cardz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.card{
+    border-radius: 0;
+}
+.btn-primary{
+    border-radius: 0;
+}
+.packages{
+    display: flex;
+    justify-content: center;
+}
+.wedding{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.john{
+    width: 60%;
+}
+.darn{
+    padding-top: 15px;
+}
+.jason{
+    text-align: left;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1F51A8;
+opacity: 1;
+}
+.amenity{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+    background-position: center;   */
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+
+    
+}
+.amenwords{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.amenpics{
+    justify-content: center;
+}
+.veletdumb{
+    height: 50%;
+    
+
+}
+.rowdumb{
+  padding-left: 5%;
+}
+.amenword{
+    color: #FFFFFF;
+    text-align: center;
+    padding-right: 50%;
+    font-weight: bold;
+}
+.signin{
+    display: flex;
+    background-image: url(../assets/hamsterreserve.jpg);
+  height: 70vh;
+    width: 125vh;
+    justify-content: center;
+}
+.bingbong{
+  
+}
+
+
+
+.callme{
+    
+    width: 125vh;
+    height: 200px;
+        background-color: #000324;
+        opacity: 100%;
+        display: flex;
+        justify-content: center;
+}
+.input1{
+    height: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    justify-content: start;
+}
+.contain{
+
+        background-color: #000324;
+       height: 40vh;
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 5vh;
+}
+.logo2{
+    color: #E5FEFF;
+    display: flex;
+    justify-content: center;
+}
+.btn-primary{
+    color: #004CC7;
+}
+.mobdeep{
+    justify-content: space-between;
+    
+}
+.mb-3{
+width: 20vh;
+height: 3vh;
+border-radius: 0;
+}
+.form-label{
+    color: #E5FEFF;
+}
+.darnyou{
+    width: 20vh;
+height: 5vh;
+}
+.row22{
+}
+.textbox{
+display: flex;
+flex-direction: column;
+}
